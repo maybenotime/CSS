@@ -7,6 +7,8 @@ CSS consists of 766 human simplifications associated with the 383 original sente
 You can see more details in our paper.
 
 ## Files
+- NMT_to_SS: build pseudo-Chinese-SS data, which describe in section 4.1
+- 
 
 ## Load from Huggingface
 
