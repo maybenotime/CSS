@@ -2,22 +2,18 @@
 The dataset and code for ACL2023 Paper: A New Dataset and Empirical Study for Sentence Simplification in Chinese (https://aclanthology.org/2023.acl-long.462)
 
 ## Introduction
-CSS is the first dataset for assessing sentence simplification in Chinese, as described in "A New Dataset and Empirical Study for Sentence Simplification in Chinese".  <br />
+CSS is the first dataset for assessing sentence simplification in Chinese. <br />
 CSS consists of 766 human simplifications associated with the 383 original sentences from the PFR corpus (two simplifications per original sentence).  <br />
 You can see more details in our paper.
 
 ## Files
-- test.json: CSS dataset
+- test.json: CSS dataset.
 - additional_dataset_for_few-shot_setting.json: only one reference for each original sentence, for validation or few-shot setting.
 - LLMs_result: LLMs inference code and simplification result.
 - NMT_to_SS: build pseudo-Chinese-SS data, which describe in section 4.1.
 - baseline_code: train code and predict code.
 - dataset_statistics: feature analysis code.
 - count.out & stopwords.txt: support materials for dataset_statistics/feature_extraction.py.
-## Load from Huggingface
-
-
-
 
 ## Cite our Work
 ```
