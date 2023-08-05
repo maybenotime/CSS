@@ -7,9 +7,11 @@ CSS consists of 766 human simplifications associated with the 383 original sente
 You can see more details in our paper.
 
 ## Files
+- LLMs_result: LLMs inference code and simplification result.
 - NMT_to_SS: build pseudo-Chinese-SS data, which describe in section 4.1.
 - baseline_code: train code and predict code.
-
+- dataset_statistics: feature analysis code
+- 
 ## Load from Huggingface
 
 
