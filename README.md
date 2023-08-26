@@ -10,7 +10,7 @@ You can see more details in our paper.
 - test.json: CSS dataset.
 - additional_dataset_for_few-shot_setting.json: only one reference for each original sentence, for validation or few-shot setting.
 - LLMs_result: LLMs inference code and simplification result.
-- NMT_to_SS: build pseudo-Chinese-SS data, which describe in section 4.1.
+- NMT_to_SS: build pseudo-Chinese-SS data, which is described in section 4.1.
 - baseline_code: train code and predict code.
 - dataset_statistics: feature analysis code.
 - count.out & stopwords.txt: support materials for dataset_statistics/feature_extraction.py.
